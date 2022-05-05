@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="conteineitor">
+    <div class="contenedor">
+      <h2> <b>Add a new Flat</b></h2>
+      <%= simple_form_for @flat do |f| %>
+        <%= f.input :name %>
+        <%= f.input :address %>
+        <%= f.input :image_url %>
+        <%= f.input :description %>
+        <%= f.input :number_of_guests %>
+        <%= f.input :price_per_night %>
+        <%= f.button :submit, class: "btn btn-primary" %>
+        <%= link_to "cancel", new_flat_path, class: "btn btn-secondary" %>
+      <% end %>
+    </div>
+  </div>
+</div>

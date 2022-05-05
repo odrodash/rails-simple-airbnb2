@@ -1,0 +1,51 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+#div-form {
+  display: flex;
+}
+
+#form-flex {
+  display: flex;
+}
+
+.card-category {
+  width: 350px;
+  height: auto;
+  box-shadow: 0 3px 15px rgba(200, 200, 200, 0.9);
+  margin: 20px;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.padding {
+  padding: 0 10px;
+}
+
+img {
+  width: 100%;
+  height: 200px;
+}
+
+.border-top {
+  padding: 15px;
+  text-align: center;
+}
+
+.contenedor {
+  width: 500px;
+  height: 600px;
+  margin: 20px auto;
+}
